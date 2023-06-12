@@ -1,3 +1,42 @@
-body {
-    background-color: #d65db1;
+:root body {
+  background-color: #122044;
+}
+
+.bg {
+  background-color: #2c3b5f;
+}
+
+.nav-link {
+  color: white;
+}
+
+.title {
+  color: bisque;
+}
+
+h1 {
+    color: #C5D1ED;
+
+  font-size: 48px;
+  line-height: 48px;
+  font-weight: bolder;
+  letter-spacing: -0.025em;
+ font-family: i;
+}
+h2,
+h3 {
+  color: #7A87A6;
+}
+
+img {
+    position: absolute;
+    left:700px;
+    top: 220px;
+    border-radius: 20px;
+}
+
+.intro {
+    position: absolute;
+    left: 100px;
+    top: 180px;
 }
