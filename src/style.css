@@ -1,12 +1,21 @@
-:root
- body {
-  background-color: #122044;
-}
-//colgroup #395bab
-.bg {
-  background-color: #2c3b5f;
+:root {
+  --branding-color: #7A87A6;
+  --secondary-color: #f9f7fe;
+  --tertiary-color: #395bab;
+  --heading-font-family: "Playfair Display", serif;
+  --default-font-family: "Poppins", sans-serif;
+  --primary-background: #122044;
 }
 
+
+.bg {
+  background-color: #2c3b5f ;
+}
+
+body {
+  background-color: var(--primary-background);
+font-family: var(--default-font-family) ;
+}
 
 .title {
   color: bisque;
@@ -20,11 +29,11 @@ h1 {
   line-height: 48px;
   font-weight: bolder;
   letter-spacing: -0.025em;
- font-family: i;
+ font-family: var(--heading-font-family);
 }
 h2,
 h3 {
-  color: #7A87A6;
+  color: var(--branding-color);
 }
 
 img {
