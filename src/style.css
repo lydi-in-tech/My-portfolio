@@ -103,6 +103,12 @@ left: -90px;
   color: white;
 }
 
+nav a:hover,
+nav li.active a {
+  color: var(--branding-color);
+}
+
+
     @media (min-width: 576px) { .col-sm-6 {
       flex: 0 0 auto;
       width: 50%;
