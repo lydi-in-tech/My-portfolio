@@ -5,80 +5,99 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    <script src="js/scripts.js"></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://kit.fontawesome.com/a9e0df7092.js"
+      crossorigin="anonymous"
+    ></script>
+
     <link
       href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css"
       rel="stylesheet"
       integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM"
       crossorigin="anonymous"
     />
-    <script
-      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"
-      integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz"
-      crossorigin="anonymous"
-    ></script>
     <link rel="stylesheet" href="src/style.css" />
+
     <title>Front-End Developer Portfolio | Lydia Pelesane</title>
-    <script
-      src="https://kit.fontawesome.com/a9e0df7092.js"
-      crossorigin="anonymous"
-    ></script>
   </head>
 
   <body>
-    <nav class="navbar navbar-expand-lg navbar-light bg">
+    <nav class="navbar navbar-expand-lg navbar-dark bg p-3">
       <div class="container-fluid">
-        <a class="navbar-brande title" href="index.html">Lydia Pelesane</a>
+        <a class="navbar-brand" href="index.html">Lydi_in_Tech</a>
         <button
           class="navbar-toggler"
           type="button"
-          data-toggle="collapse"
-          data-target="#navbarNavDropdown"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNavDropdown"
           aria-controls="navbarNavDropdown"
           aria-expanded="false"
           aria-label="Toggle navigation"
         >
           <span class="navbar-toggler-icon"></span>
         </button>
+
         <div class="collapse navbar-collapse" id="navbarNavDropdown">
-          <ul class="navbar-nav">
-            <li class="nav-item active">
-              <a class="nav-link" href="/" title="homepage">Home </a>
+          <ul class="navbar-nav ms-auto">
+            <li class="nav-item">
+              <a
+                class="nav-link mx-2 active"
+                aria-current="page"
+                title="Homepage"
+                href="/"
+                >Home</a
+              >
             </li>
             <li class="nav-item">
-              <a class="nav-link" title="about Lydia Pelesane" href="about.html"
+              <a
+                class="nav-link mx-2"
+                title="About Lydia Pelesane"
+                href="about.html"
                 >About</a
               >
             </li>
             <li class="nav-item">
               <a
-                class="nav-link"
-                title="contact Lydia Pelesane"
+                class="nav-link mx-2"
+                title="Contact Lydia Pelesane"
                 href="contact.html"
                 >Contact</a
               >
             </li>
             <li class="nav-item dropdown">
               <a
-                class="nav-link dropdown-toggle"
-                title="projects created by Lydia Pelesane"
-                href="projects.html"
+                class="nav-link mx-2 dropdown-toggle"
+                href="work.html"
                 id="navbarDropdownMenuLink"
-                data-toggle="dropdown"
-                aria-haspopup="true"
+                role="button"
+                data-bs-toggle="dropdown"
                 aria-expanded="false"
+                title="Work of Lydia Pelesane"
               >
-                Projects
+                Work
               </a>
-              <div
+              <ul
                 class="dropdown-menu"
                 aria-labelledby="navbarDropdownMenuLink"
               >
-                <a class="dropdown-item" href="FINAL BASICS PROJECT.html"
-                  >Landing Page</a
-                >
-                <a class="dropdown-item" href="#">Another action</a>
-                <a class="dropdown-item" href="#">Something else here</a>
-              </div>
+                <li>
+                  <a class="dropdown-item" href="projects.html">Projects</a>
+                </li>
+                <li>
+                  <a class="dropdown-item" href="FINAL BASICS PROJECT.html"
+                    >Landing Page</a
+                  >
+                </li>
+                <li><a class="dropdown-item" href="#">Weather App</a></li>
+                <li><a class="dropdown-item" href="#">Contact us</a></li>
+              </ul>
             </li>
           </ul>
         </div>
@@ -129,6 +148,86 @@
               class="img-fluid rounded img-responsive d-none d-lg-block"
               alt="code"
             />
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="villian">
+      <div class="container">
+        <!-- Row 3 -->
+        <div class="row">
+          <div class="col-sm-6">
+            <img
+              src="src/images/project 1.png"
+              class="img-fluid rounded d-none d-sm-block"
+              alt="Dog grooming"
+            />
+          </div>
+
+          <div class="col-sm-6">
+            <h2 class="marg">Grooming app</h2>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit.
+              Perferendis quia, dignissimos nam ratione veniam quibusdam porro
+              omnis quam vel eos eveniet alias temporibus deserunt veritatis
+              minima fugiat explicabo eum dolore.
+            </p>
+            <div class="mt-5">
+              <a href="#" class="primary-link project-link" title="Yoga project"
+                >Launch Grooming App</a
+              >
+            </div>
+          </div>
+        </div>
+
+        <div class="row">
+          <div class="col-sm-6">
+            <h2 class="marg">Grooming app</h2>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit.
+              Perferendis quia, dignissimos nam ratione veniam quibusdam porro
+              omnis quam vel eos eveniet alias temporibus deserunt veritatis
+              minima fugiat explicabo eum dolore.
+            </p>
+            <div class="mt-5">
+              <a href="#" class="primary-link project-link" title="Yoga project"
+                >Launch Grooming App</a
+              >
+            </div>
+          </div>
+
+          <div class="col-sm-6">
+            <img
+              src="src/images/project 1.png"
+              class="img-fluid rounded d-none d-sm-block"
+              alt="Dog grooming"
+            />
+          </div>
+        </div>
+
+        <div class="row">
+          <div class="col-sm-6">
+            <img
+              src="src/images/project 1.png"
+              class="img-fluid rounded d-none d-sm-block"
+              alt="Dog grooming"
+            />
+          </div>
+
+          <div class="col-sm-6">
+            <h2 class="marg">Grooming app</h2>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit.
+              Perferendis quia, dignissimos nam ratione veniam quibusdam porro
+              omnis quam vel eos eveniet alias temporibus deserunt veritatis
+              minima fugiat explicabo eum dolore.
+            </p>
+            <div class="mt-5">
+              <a href="#" class="primary-link project-link" title="Yoga project"
+                >Launch Grooming App</a
+              >
+            </div>
           </div>
         </div>
       </div>
