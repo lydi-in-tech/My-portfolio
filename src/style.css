@@ -8,7 +8,7 @@
   --box-shadow: 0 5px 10px linear-gradient(45deg, rgba(57, 83, 149, 1.0), rgba(18, 33, 68, 1.0));;
 }
 
-.bg {
+.bg  {
   background-color: #2c3b5f ;
 }
 
@@ -69,10 +69,39 @@ h6 {
   font-family: var(--heading-font-family);
   font-weight: bold;
   color: var(--tertiary-color);
+
+}
+
+footer {
+  margin: 60px 0;
+  margin-top: 60px;
+  margin-right: 0px;
+  margin-bottom: 60px;
+  margin-left: 0px;
+}
+
+.contact-box {
+  margin-left: 100px;
+  margin-right: 100px;
+  padding-left: 40px;
+  padding-right: 40px;
+  border: solid 1px black
+
+}
+
+footer h4 {
+  font-size: 50px
+}
+
+.btn {
+  position: absolute;
+  top: 780px;
+  left: 700px;
+  background-color: var(--tertiary-color);
 }
 
 .title {
-  color: bisque;
+color: bisque;
   text-decoration: none;
   font-size: 30px;
   font-weight: bolder;
