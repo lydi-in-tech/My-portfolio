@@ -1,112 +1,119 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
 
     <style>
-        h1 {
-            color:#f09027 ;
-            font-size: 50px;
-            text-align: center
-        }
+      h1 {
+        color: #f09027;
+        font-size: 50px;
+        text-align: center;
+        margin: 5px;
+      }
 
-        h2 {
-            color:#321313 ;
-            font-size: 30px;
-            text-align: center;
-        }
-        
-        img {
+      h2 {
+        color: #321313;
+        font-size: 30px;
+        text-align: center;
+        margin: 10px;
+      }
 
-            display: block;
-            margin: auto 0;
-            max-width: 90%;
-            height: auto;
-}
-        }
+      img {
+        display: block;
 
-        p {
-            color:#1d1716 ;
-            font-size: 20px;
-            line-height: 1.5;
-        }
+        max-width: 50%;
+        margin-left: auto;
+        margin-right: auto;
+        background-color: #d9b650;
+      }
 
-        button {
-            display: block;
-            margin: auto;
-            padding: 25px 30px;
-            font-size: 15px;
-            border: 2px solid #d9b650 ;
-            background: #d9b650;
-            border-radius: 20px;
-            color: #1d1716;
-            
-        }
+      p {
+        color: #1d1716;
+        font-size: 18px;
+        line-height: 1.2;
+        margin: 10px;
+        text-align: center;
+      }
 
-        button:hover {
-            opacity: 0.9;
-            cursor: pointer;
-        }
+      .creator {
+        font-size: 16px;
+        color: #1d1716;
+        text-align: center;
+      }
+
+      button {
+        display: block;
+        margin: auto;
+        padding: 25px 30px;
+        font-size: 15px;
+        border: 2px solid #d9b650;
+        background: #d9b650;
+        border-radius: 20px;
+        color: #1d1716;
+        box-shadow: #d9b650 0px 7px 29px 0px;
+      }
+
+      button:hover {
+        opacity: 0.9;
+        cursor: pointer;
+      }
     </style>
-</head>
-<body>
-   <h1>
-    DOGS ARE MAN'S BEST FRIEND,
-   </h1> 
-   <h2>
-    but they are even more loyal when properly cared for.
-   </h2>
-   <hr>
+  </head>
+  <body>
+    <h1>DOGS ARE MAN'S BEST FRIEND,</h1>
+    <h2>but they are even more loyal when properly cared for.</h2>
+    <hr />
 
-   <img src="https://s3.amazonaws.com/shecodesio-production/uploads/files/000/069/796/original/pet-Gromming-1-1080x416.png?1677838271"alt="Dogs" class="responsive>
+    <img
+      src="https://s3.amazonaws.com/shecodesio-production/uploads/files/000/069/796/original/pet-Gromming-1-1080x416.png?1677838271"
+      alt=""
+    />
 
-   <hr>
+    <hr />
     <p>
-    An essential component of dog care is grooming.
-    Grooming a dog could be a daily task, depending on its breed, age, and health.
-    Although many breeds require far less maintenance than this, regular maintenance helps to keep the dog happy and
-    healthy.
-    The crucial component of appropriate pet care is grooming.
-    Pet grooming prevents odors from entering the home and reduces dandruff and shedding.
-    Tangles and loose hair can be removed through pet grooming.
-    Regular usage of grooming products can actually lower the likelihood that your pet will remain. 
-     <br>
-     Learn more on <a href="https://www.alphapaw.com/blog/dog-grooming-facts/">
+      Grooming is an essential part of dog care, regular grooming prevents odors
+      from entering the home, reduces dandruff and shedding, and removes tangles
+      and loose hair. Additionally, grooming can help to keep your dog's coat
+      and skin healthy, as well as provide an opportunity to check for any
+      lumps, bumps, or other health concerns. It can also be a bonding
+      experience between you and your furry friend. Overall, regular grooming is
+      important for the well-being of your dog and the cleanliness of your home.
+      Learn more on
+      <a href="https://www.alphapaw.com/blog/dog-grooming-facts/">
         Alpha Paw
-     </a>
+      </a>
     </p>
-    
 
     <p>
-        <strong>
-            Show your pets love and care by booking a grooming session for them.
-        </strong>
+      <strong>
+        Show your pets love and care by booking a grooming session for them.
+      </strong>
     </p>
-  
-  <button class"btn">
-   Book Now 
-   </button>
-    
-   <br>
-    This page was built by <a href="https://www.shecodes.io/graduates/71525-lydia-pelesane">Lydia Pelesane</a>
-    
+
+    <button class="book-button">Book Now</button>
+
+    <br />
+    <div class="creator">
+      This page was built by
+      <a href="https://www.shecodes.io/graduates/71525-lydia-pelesane"
+        >Lydia Pelesane</a
+      >
+    </div>
+
     <script>
-        function book() {
-        
+      function book() {
         let name = prompt("What is your name?");
         let email = prompt("What is your email address?");
-         alert("Thank you " + name + ", we'll be in touch via email. We can't wait to groom your pet 🐶")
-        
 
-         letbookButton = document.querySelector(".btn");
-            buyButton.addEventListener("click", book);
-        }
-
-        
+        alert(
+          "Thank you  " + name + " we'll get in touch with you via email. 🐶"
+        );
+      }
+      let bookButton = document.querySelector(".book-button");
+      bookButton.addEventListener("click", book);
     </script>
-
-   </body>
+  </body>
 </html>
