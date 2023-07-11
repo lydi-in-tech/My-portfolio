@@ -113,9 +113,7 @@ footer {
   background-color: var(--tertiary-color);
 }
 
-.contact-btn {
-  background-color: #212529;
-}
+
 
 .title {
 color: bisque;
@@ -273,4 +271,12 @@ box-shadow: 5px 5px 5px 0px rgba(0, 0, 0, 0.3);
 .creator {
   position: absolute;
   top: 910px;
+}
+
+.contact-btn {
+  border: solid black 1px;
+  position: absolute;
+  top: 730px;
+  left: 700px;
+  padding: 10px 20px;
 }
